@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0  maximum-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./styles.min.css"/>
+    <title>Test</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="header__menu">
+          <div class="menu-icon js-menu"><span class="menu-icon__span"></span><span class="menu-icon__span"></span><span class="menu-icon__span"></span></div>
+          <div class="header__row">
+            <div class="header__logo"><img src="./img/logo.png" alt="logo"/></div>
+            <div class="header__menu-body js-menu-body">
+              <div class="header__links"><a class="header__link" href="#"><svg class="svg" width="50" height="24" viewBox="0 0 24 24"><path d="M23.4 10.392l-.002-.002L13.608.6a2.194 2.194 0 00-1.562-.647c-.59 0-1.145.23-1.563.647L.698 10.385a2.212 2.212 0 00-.006 3.13 2.197 2.197 0 001.535.648h.39v7.204a2.589 2.589 0 002.586 2.586h3.83a.703.703 0 00.703-.703v-5.648c0-.651.53-1.18 1.18-1.18h2.26c.65 0 1.179.529 1.179 1.18v5.648c0 .388.315.703.703.703h3.83a2.589 2.589 0 002.586-2.586v-7.204h.362a2.213 2.213 0 001.564-3.77zm-.996 2.13a.798.798 0 01-.568.235h-1.065a.703.703 0 00-.703.703v7.907c0 .65-.53 1.18-1.18 1.18h-3.127v-4.945a2.589 2.589 0 00-2.586-2.586h-2.259a2.59 2.59 0 00-2.586 2.586v4.945H5.203c-.65 0-1.18-.53-1.18-1.18V13.46a.703.703 0 00-.703-.703H2.273a.797.797 0 01-.586-.236.804.804 0 010-1.136h.001l9.79-9.79a.797.797 0 01.568-.236c.214 0 .416.084.568.236l9.787 9.787.005.004a.805.805 0 01-.002 1.135z"></path></svg> Главная</a><a class="header__link" href="#"><svg class="svg" width="50" height="24" viewBox="0 0 24 24"> <path d="M16.122 4.12203C14.6684 4.11672 13.2361 4.52521 12 5.28914C10.7639 4.52521 9.33156 4.11672 7.87798 4.12203C3.53316 4.12203 0 7.65519 0 12C0 16.3448 3.53316 19.878 7.87798 19.878C9.33156 19.8833 10.7639 19.4748 12 18.7109C13.2361 19.4748 14.6684 19.8833 16.122 19.878C20.4668 19.878 24 16.3448 24 12C24 7.65519 20.4668 4.12203 16.122 4.12203ZM7.87798 18.8223C4.11141 18.8223 1.0557 15.7666 1.0557 12.0053C1.0557 8.24405 4.11141 5.18304 7.87798 5.18304C8.98674 5.18304 10.0796 5.44829 11.0557 5.96818C7.72414 8.76394 7.28912 13.7295 10.0849 17.061C10.382 17.4112 10.7056 17.7348 11.0557 18.0318C10.0796 18.5517 8.98674 18.8223 7.87798 18.8223ZM12 17.4271C9.00265 15.1512 8.41379 10.8753 10.6897 7.878C11.0663 7.38463 11.5066 6.94431 12 6.56765C14.9973 8.84352 15.5862 13.1194 13.3103 16.1167C12.9337 16.6154 12.4934 17.0557 12 17.4271ZM16.122 18.817C15.0133 18.817 13.9204 18.5517 12.9443 18.0318C16.2759 15.2361 16.7109 10.2706 13.9151 6.93901C13.618 6.58887 13.2944 6.26527 12.9443 5.96818C13.9257 5.44829 15.0133 5.17773 16.122 5.18304C19.8886 5.18304 22.939 8.23874 22.939 12.0053C22.939 15.7719 19.8886 18.8223 16.122 18.817Z"></path></svg> Проекты</a><a class="header__link" href="#">
+                  <svg class="svg" width="50" height="24" viewBox="0 0 24 24"><path d="M13.7143 22.7143H10.2857C9.48571 22.7143 8.57143 22.0286 8.57143 20.6572V18.2572C8.57143 17.1143 8 16.0857 7.08571 15.2857C5.02857 13.6857 4 11.4 4 8.88573C4.11429 4.54286 7.65714 1.11429 11.8857 1C14.0571 1 16.1143 1.8 17.6 3.28572C19.0857 4.77143 20 6.82858 20 9.00001C20 11.4 18.9714 13.6857 17.0286 15.1715C16 15.9715 15.4286 17.2286 15.4286 18.3715V21C15.4286 21.9143 14.6286 22.7143 13.7143 22.7143ZM12 2.14286C8.34286 2.14286 5.25714 5.22858 5.14286 8.88573C5.14286 11.0572 6.05714 13.1143 7.77143 14.3715C9.02857 15.4 9.71429 16.7715 9.71429 18.2572V20.6572C9.71429 20.8857 9.71429 21.5715 10.2857 21.5715H13.7143C14.0571 21.5715 14.2857 21.3429 14.2857 21V18.3715C14.2857 16.8857 15.0857 15.2857 16.3429 14.2572C17.9429 13 18.8571 11.0572 18.8571 9.00001C18.8571 7.17144 18.1714 5.45715 16.8 4.08572C15.5429 2.82857 13.8286 2.14286 12 2.14286Z"><path d="M14.8571 19.2857H9.14284C8.79998 19.2857 8.57141 19.0572 8.57141 18.7143C8.57141 18.3715 8.79998 18.1429 9.14284 18.1429H14.8571C15.2 18.1429 15.4286 18.3715 15.4286 18.7143C15.4286 19.0572 15.2 19.2857 14.8571 19.2857Z"></path></path></svg> Услуги</a><a class="header__link" href="#">
+                  <svg class="svg" width="50" height="24" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg" ><circle cx="12" cy="5" r="4.4" stroke-width="1.2"/><circle cx="5" cy="19" r="4.4" stroke-width="1.2"/>
+<circle cx="19" cy="19" r="4.4" stroke-width="1.2"/></svg> О компании</a><a class="header__link" href="#"><svg class="svg" width="50" height="24" viewBox="0 0 24 24"><path d="M24 12C24 11.4295 23.6974 10.9096 23.1893 10.6081L21.8529 9.82184C22.3677 9.51615 22.8265 9.24349 23.1904 9.02698C23.6975 8.7244 24 8.2045 24 7.63612C24 7.06774 23.6974 6.54783 23.1904 6.2447C21.5199 5.25122 15.8555 1.88506 13.0632 0.284342C12.4165 -0.0869597 11.6303 -0.10184 10.9314 0.287563C10.9314 0.287563 3.33767 4.74788 0.810665 6.24424C0.302574 6.54569 0 7.06559 0 7.63612C0 8.2045 0.302574 8.7244 0.809643 9.02754C1.17348 9.2439 1.63217 9.51651 2.14686 9.82205L0.810717 10.6081C0.302574 10.9096 0 11.4295 0 12C0 12.5684 0.302574 13.0883 0.809643 13.3914C1.17348 13.6078 1.63217 13.8804 2.14686 14.1859L0.810717 14.9719C0.302574 15.2734 0 15.7933 0 16.3639C0 16.9323 0.302574 17.4522 0.809643 17.7553C2.97123 19.0407 8.2841 22.1948 10.9368 23.7157C11.2617 23.9021 11.6304 24.0006 12 24.0006C12.3697 24.0006 12.7383 23.9021 13.0643 23.7151C15.716 22.1948 21.0288 19.0407 23.1904 17.7547C23.6975 17.4522 24.0001 16.9323 24.0001 16.3639C24.0001 15.7933 23.6975 15.2734 23.1893 14.9719L21.8529 14.1857C22.3678 13.88 22.8265 13.6074 23.1904 13.3909C23.6975 13.0883 24 12.5684 24 12ZM1.3679 8.09139C1.2848 8.04132 1.09089 7.89748 1.09089 7.63704C1.09089 7.37548 1.28373 7.23276 1.36682 7.18372C3.89061 5.68905 11.4737 1.23538 11.4727 1.23589C11.82 1.04039 12.1992 1.04786 12.521 1.23215C15.3057 2.82858 20.9649 6.1908 22.6321 7.18264C22.7152 7.2327 22.9091 7.37655 22.9091 7.63699C22.9091 7.89743 22.7152 8.04127 22.6321 8.09082C20.4737 9.37455 15.1673 12.5253 12.522 14.0413C12.1939 14.2288 11.805 14.2283 11.479 14.0418C8.83274 12.5253 3.52626 9.3746 1.3679 8.09139ZM22.6332 15.911C22.7163 15.96 22.9091 16.1027 22.9091 16.3643C22.9091 16.6248 22.7152 16.7686 22.6321 16.8181C20.4737 18.1018 15.1673 21.2526 12.522 22.7686C12.1939 22.9561 11.805 22.9556 11.479 22.7691C8.83274 21.2526 3.52626 18.1018 1.3679 16.8186C1.2848 16.7686 1.09089 16.6247 1.09089 16.3643C1.09089 16.1027 1.28373 15.96 1.36682 15.911L3.21791 14.8217C5.71991 16.3047 9.02036 18.2533 10.9368 19.352C11.2617 19.5384 11.6304 19.637 12 19.637C12.3697 19.637 12.7383 19.5384 13.0643 19.3515C14.9799 18.2532 18.2801 16.3049 20.782 14.8217L22.6332 15.911ZM22.6321 12.4545C20.4737 13.7382 15.1673 16.889 12.522 18.405C12.1939 18.5925 11.805 18.5919 11.479 18.4055C8.83274 16.8889 3.52626 13.7382 1.3679 12.455C1.2848 12.4049 1.09089 12.2611 1.09089 12.0007C1.09089 11.7391 1.28373 11.5964 1.36682 11.5473L3.21791 10.4581C5.71991 11.9411 9.02036 13.8897 10.9368 14.9884C11.2617 15.1748 11.6304 15.2733 12 15.2733C12.3697 15.2733 12.7383 15.1748 13.0643 14.9878C14.9799 13.8895 18.2801 11.9412 20.782 10.458L22.6332 11.5473C22.7163 11.5963 22.9092 11.7391 22.9092 12.0007C22.9091 12.2611 22.7152 12.4049 22.6321 12.4545Z"></path></svg> Готовые решения</a><a class="header__link" href="#">
+                  <svg class="svg" width="50" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 10.6667C20 16.8889 12 22.2222 12 22.2222C12 22.2222 4 16.8889 4 10.6667C4 8.54496 4.84285 6.51012 6.34315 5.00983C7.84344 3.50954 9.87827 2.66669 12 2.66669C14.1217 2.66669 16.1566 3.50954 17.6569 5.00983C19.1571 6.51012 20 8.54496 20 10.6667Z" stroke="#2B2D3A" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 13.3333C13.4728 13.3333 14.6667 12.1394 14.6667 10.6667C14.6667 9.19391 13.4728 8 12 8C10.5273 8 9.33337 9.19391 9.33337 10.6667C9.33337 12.1394 10.5273 13.3333 12 13.3333Z" stroke="#2B2D3A" stroke-linecap="round" stroke-linejoin="round"/></path></svg> Контакты</a></div>
+              <input class="header__btn popup__submit" type="submit" value="Заполнить бриф"/>
+              <p class="header__ask">Напишите нам</p><a class="header__link-mail" href="#">
+                <svg width="50" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.99988 4H19.9999C21.0999 4 21.9999 4.9 21.9999 6V18C21.9999 19.1 21.0999 20 19.9999 20H3.99988C2.89988 20 1.99988 19.1 1.99988 18V6C1.99988 4.9 2.89988 4 3.99988 4Z" stroke="#397DFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21.9999 6L11.9999 13L1.99988 6" stroke="#397DFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg> info@sld-store.ru</a>
+            </div>
+            <div class="header__menu-body-without">
+              <div class="header__links"><a class="header__link header__link_active" href="#">Главная<a class="header__link" href="#">Проекты</a><a class="header__link" href="#">Услуги</a><a class="header__link" href="#">О компании</a><a class="header__link" href="#">Готовые решения</a><a class="header__link" href="#">Контакты</a></a></div>
+            </div>
+            <div class="header__mail"><a class="header__data-back" href="#"> <img class="header__icon" src="./img/mail_icon.png" alt="mail_icon"/><span class="header__data-back" href="#">info@sld-store.ru</span></a></div>
+            <div class="header__phone js-popup"><a class="header__data-back" href="#"><img class="header__icon" src="./img/phone_icon.png" alt="phone_icon"/></a></div>
+            <div class="header__phone js-popup"><a class="header__data-name" href="#">Обратный звонок</a>
+              <div class="header__data-back" href="#">8 812 615-62-79</div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <section class="slicker">
+        <p class="slicker__text">Оснащение конференц-залов</p>
+        <p class="slicker__title">Видео конференции</p>
+        <p class="slicker__text2">Профессиональное оборудование для конференц-залов предназначено для проведения и организации презентаций, совещаний, бизнес-тренингов и онлайн-трансляции контента.</p>
+        <div class="slicker__btn-flex">
+          <button class="slicker__btn2 slicker__btn js-popup">Обратный звонок</button>
+          <button class="slicker__btn2 popup__submit">Заполнить бриф</button>
+        </div>
+        <div class="slider js-slider">
+          <div class="slider__item">
+            <p class="slider__title">01</p>
+            <p class="slider__text">Простота использования оснащения позволяет решать функциональные и организационные задачи, оптимизировать работу, проводить мероприятия различного масштаба.</p>
+          </div>
+          <div class="slider__item">
+            <p class="slider__title">02</p>
+            <p class="slider__text">Применение инновационных решений для демонстрации культурных и исторических реликвий – актуальная тенденция, которая успешно применяется в музеях и на площадках альтернативного искусства.</p>
+          </div>
+          <div class="slider__item">
+            <p class="slider__title">01</p>
+            <p class="slider__text">Простота использования оснащения позволяет решать функциональные и организационные задачи, оптимизировать работу, проводить мероприятия различного масштаба.</p>
+          </div>
+          <div class="slider__item">
+            <p class="slider__title">02</p>
+            <p class="slider__text">Применение инновационных решений для демонстрации культурных и исторических реликвий – актуальная тенденция, которая успешно применяется в музеях и на площадках альтернативного искусства.</p>
+          </div>
+        </div>
+      </section>
+      <section class="pictures"><img src="./img/pictures1.png" alt="picture"/>
+        <div class="pictures__por-block"><img src="./img/pictures2.png" alt="picture"/>
+          <div class="pictures__block-popup js-block-popup"></div>
+          <div class="pictures__poa hide js-pictures-popup">
+            <div class="pictures__popup popup popup__pos"><span class="popup__close pictures__popup-close"></span>
+              <div class="pictures__popup-wrapper pictures__por-block"><img class="pictures__speaker-pos" src="./img/speaker.png" alt="speaker"/>
+                <p class="pictures__popup-title">Electro-Voice EVID 4.2</p>
+                <ul class="pictures__popup-list">
+                  <li>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="7.99977" cy="8.00074" r="3.04762" fill="#397DFF"/>
+<circle opacity="0.15" cx="8" cy="8" r="8" fill="#397DFF"/>
+</svg> Очень мягкое звучание.
+                  </li>
+                  <li>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="7.99977" cy="8.00074" r="3.04762" fill="#397DFF"/>
+<circle opacity="0.15" cx="8" cy="8" r="8" fill="#397DFF"/>
+</svg> Чувствительность — 89 дБ.
+                  </li>
+                  <li>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="7.99977" cy="8.00074" r="3.04762" fill="#397DFF"/>
+<circle opacity="0.15" cx="8" cy="8" r="8" fill="#397DFF"/>
+</svg> Пиковая мощность — 400 Вт.
+                  </li>
+                  <li>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="7.99977" cy="8.00074" r="3.04762" fill="#397DFF"/>
+<circle opacity="0.15" cx="8" cy="8" r="8" fill="#397DFF"/>
+</svg> Степень влагозащищенности IP34.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="wrapper__interlayer">
+        <div class="hide-show__dark-block hide js-hidden-block">
+          <div class="hide-show__hidden-block">
+            <div class="popup popup__pos"><span class="popup__close"></span>
+              <div class="popup__wrapper">
+                <legend class="popup__title">Готовы обсудить проект?</legend>
+                <p class="popup__description">Заполните форму ниже и мы свяжемся с вами.</p>
+                <input class="popup__data" type="text" placeholder="Имя*"/>
+                <input class="popup__data" type="number" placeholder="Телефон*" min="0" oninput="validity.valid||(value='');"/>
+                <input class="popup__chb" id="check" type="checkbox"/>
+                <label class="popup__chbx" for="check">Я согласен с условиями обработки <a class="popup__link" href="#">персональных данных</a></label>
+                <input class="popup__submit" type="submit" value="Отправить"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="popup popup__pos"><span class="popup__close"></span>
+          <div class="popup__wrapper">
+            <div class="popup__flex-pos">
+              <div class="popup__figure">
+                <div class="popup__circle"></div>
+                <div class="popup__circle2"></div>
+                <div class="popup__check"></div>
+              </div>
+              <p class="popup__description2">Ваша заявка успешно отправлена.</p>
+              <p class="popup__description2">Ожидайте звонка в ближайшее время!</p>
+              <input class="popup__submit" type="submit" value="Ок"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./libs.min.js"></script>
+    <script src="./script.min.js"></script>
+  </body>
+</html>
