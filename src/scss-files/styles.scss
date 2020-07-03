@@ -28,6 +28,7 @@ body {
     &__close {
         position: relative;
         opacity: 0.8;
+        cursor: pointer;
         &:hover {
         opacity: 1;
         }
@@ -132,6 +133,7 @@ body {
         align-items: center;
         justify-content: center;
         color: #FFFFFF;
+        cursor: pointer;
     }
     &__flex-pos {
         display: flex;

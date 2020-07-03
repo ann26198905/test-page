@@ -12,12 +12,19 @@ $(document).ready(function() {
         $('.js-hidden-block').removeClass('hide');
     });
 
-    $('body').mouseup(function() {
+    $('.js-close').mouseup(function() {
         $('.js-hidden-block').addClass('hide');
-        });
+    });
+    
+    $('.popup__close').mouseup(function() {
+        $('.js-hidden-block').addClass('hide');
+    });
+    
  
-    $('body').keyup(function() {
-        $('.js-hidden-block').addClass('hide');
+    $(document).keyup(function(e) {
+        if (e.keyCode === 27) { 
+            $('.js-hidden-block').addClass('hide');
+        }
     });
 
     //hide and show pictures-popup
