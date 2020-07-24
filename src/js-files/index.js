@@ -7,23 +7,38 @@ $(document).ready(function() {
         $(".header__link_active>.svg").toggleClass("svg-active");
     });  
 
-    //hide and show popup
+    //hide and show 1popup
     $(".js-popup").on('click', function () {
         $('.js-hidden-block').removeClass('hide');
-    });
-
-    $('.js-close').mouseup(function() {
-        $('.js-hidden-block').addClass('hide');
     });
     
     $('.popup__close').mouseup(function() {
         $('.js-hidden-block').addClass('hide');
     });
     
- 
     $(document).keyup(function(e) {
         if (e.keyCode === 27) { 
             $('.js-hidden-block').addClass('hide');
+        }
+    });
+
+    //hide and show 2popup
+    $(".js-1popup-submit").on('click', function () {
+        $('.js-hidden-block2').removeClass('hide');
+    });
+
+    $('.js-close').on('click', function () {
+        $('.js-hidden-block2').addClass('hide');
+        $('.js-hidden-block').addClass('hide');
+    });
+    
+    $('.popup__close').mouseup(function() {
+        $('.js-hidden-block2').addClass('hide');
+    });
+ 
+    $(document).keyup(function(e) {
+        if (e.keyCode === 27) { 
+            $('.js-hidden-block2').addClass('hide');
         }
     });
 

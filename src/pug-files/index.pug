@@ -116,18 +116,20 @@ html(lang="en")
                                 input.popup__chb#check(type="checkbox")
                                 label.popup__chbx(for="check")| Я согласен с условиями обработки 
                                     a.popup__link(href="#") персональных данных
-                                input.popup__submit(type="submit" value="Отправить") 
-                .popup.popup__pos
-                    span.popup__close
-                    .popup__wrapper
-                        .popup__flex-pos
-                            .popup__figure
-                                .popup__circle
-                                .popup__circle2
-                                .popup__check
-                            p.popup__description2 Ваша заявка успешно отправлена.
-                            p.popup__description2 Ожидайте звонка в ближайшее время!
-                            input.popup__submit(type="submit" value="Ок") 
+                                input.popup__submit.js-1popup-submit(type="submit" value="Отправить") 
+                .hide-show__dark-block.hide.js-hidden-block2
+                    .hide-show__hidden-block                
+                        .popup.popup__pos
+                            span.popup__close
+                            .popup__wrapper
+                                .popup__flex-pos
+                                    .popup__figure
+                                        .popup__circle
+                                        .popup__circle2
+                                        .popup__check
+                                    p.popup__description2 Ваша заявка успешно отправлена.
+                                    p.popup__description2 Ожидайте звонка в ближайшее время!
+                                    input.popup__submit.js-close(type="submit" value="Ок") 
                 
         script(src="./libs.min.js")
         script(src="./script.min.js")

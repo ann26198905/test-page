@@ -109,22 +109,26 @@
                 <input class="popup__data" type="number" placeholder="Телефон*" min="0" oninput="validity.valid||(value='');"/>
                 <input class="popup__chb" id="check" type="checkbox"/>
                 <label class="popup__chbx" for="check">Я согласен с условиями обработки <a class="popup__link" href="#">персональных данных</a></label>
-                <input class="popup__submit" type="submit" value="Отправить"/>
+                <input class="popup__submit js-1popup-submit" type="submit" value="Отправить"/>
               </div>
             </div>
           </div>
         </div>
-        <div class="popup popup__pos"><span class="popup__close"></span>
-          <div class="popup__wrapper">
-            <div class="popup__flex-pos">
-              <div class="popup__figure">
-                <div class="popup__circle"></div>
-                <div class="popup__circle2"></div>
-                <div class="popup__check"></div>
+        <div class="hide-show__dark-block hide js-hidden-block2">
+          <div class="hide-show__hidden-block">               
+            <div class="popup popup__pos"><span class="popup__close"></span>
+              <div class="popup__wrapper">
+                <div class="popup__flex-pos">
+                  <div class="popup__figure">
+                    <div class="popup__circle"></div>
+                    <div class="popup__circle2"></div>
+                    <div class="popup__check"></div>
+                  </div>
+                  <p class="popup__description2">Ваша заявка успешно отправлена.</p>
+                  <p class="popup__description2">Ожидайте звонка в ближайшее время!</p>
+                  <input class="popup__submit js-close" type="submit" value="Ок"/>
+                </div>
               </div>
-              <p class="popup__description2">Ваша заявка успешно отправлена.</p>
-              <p class="popup__description2">Ожидайте звонка в ближайшее время!</p>
-              <input class="popup__submit" type="submit" value="Ок"/>
             </div>
           </div>
         </div>
